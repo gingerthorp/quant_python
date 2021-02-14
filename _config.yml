@@ -1,0 +1,29 @@
+# Book settings
+title: ""
+author: "이현열"
+logo: logo.png
+
+repository:
+  url: https://github.com/hyunyulhenry/quant_python
+  branch: master
+
+parse:
+  myst_extended_syntax: true
+  
+execute:
+  execute_notebooks: 'off'
+
+html:
+  comments:
+    hypothesis: true
+    utterances:
+      repo: "hyunyulhenry/quant_python"
+  
+latex:
+  latex_documents:
+    targetname: book.tex
+
+sphinx:
+  config:
+    show_authors: false
+    html_show_copyright: false
